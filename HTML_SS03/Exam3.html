@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form điền thông tin</title>
+</head>
+<body>
+    <form action = "#">
+        <br>
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname">
+        <br>
+
+        <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        <br>
+
+        <br>
+            <label for="birthdate">Ngày sinh đầy đủ:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        <br>
+
+        <br>
+            <label>Giới tính:</label>
+            <label for="male">Nam</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Nữ</label>
+            <input type="radio" id="female" name="gender" value="female">
+        <br>
+
+        <br>
+            <label for="phonenumber">Số điện thoại:</label>
+            <input type="number" id="phonenumber" name="phonenumber">
+        <br>
+
+        <br>
+            <label for="major">Chuyên ngành:</label>
+            <input type="text" id="major" name="major">
+        <br>
+
+        <br>
+            <label for="GPApoint">Điểm GPA:</label>
+            <input type="number" id="GPApoint" name="GPApoint">
+        <br>
+
+        <br>
+            <label for="location">Địa chỉ:</label>
+            <textarea name="location" id="location" rows="2" cols="30"></textarea>
+        </br>
+
+        <br>
+            <label>Lớp học:</label>
+            <select name="tailieu">
+                <option>Lớp 1</option>
+            </select>
+        </br>
+
+        <br>
+            <label for="datetime">Ngày đăng ký học:</label>
+            <input type="datetime-local" name="datetime" id="datetime"/>
+        </br>
+
+        <button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
